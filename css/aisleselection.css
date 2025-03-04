@@ -1,0 +1,501 @@
+@font-face {
+    font-family: 'fogtwo';
+    src: url(FogtwoNo5.ttf);
+}
+
+body{
+    background-color: #ded7d1;
+    width: 100%;
+    height: 1000px;
+}
+
+#return{
+    font-family: 'fogtwo';
+    color: #c74548;
+    font-size: 20px;
+    letter-spacing: 10px;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: #c74548 1px solid;
+    padding-right: 5px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+
+    scale: 80%;
+
+    opacity: 50%;
+
+    transition: 0.5s;
+}
+
+#return:hover{
+    opacity: 100%;
+}
+
+#return:hover{
+    opacity: 100%;
+}
+
+/*
+#container{
+    position: absolute;
+    display: grid;
+    width: 100%;
+    overflow: hidden;
+    border: #c74548 1px solid;
+
+}
+
+#which{
+    font-family:'fogtwo';
+    color: #c74548;
+    letter-spacing: 10px;
+    border: #c74548 1px solid;
+
+    text-align: center;
+
+
+
+}
+
+#sweet{
+    border: #c74548 1px solid;
+}
+
+#salty{
+    border: #c74548 1px solid;
+}
+
+#sweet-salty{
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+
+    border: #c74548 1px solid;
+    align-items: center;
+
+
+
+
+}
+
+
+
+#basket-red{
+    width: 400px;
+}
+
+#pocky{
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+
+#panda{
+    width: 80px;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+#ramune{
+    width: 80px;
+    position: absolute;
+    left: 260px;
+    top: 400px;
+    rotate: -25deg;
+}
+
+#rabbit{
+    width: 80px;
+    position: absolute;
+    left: 400px;
+    top: 400px;
+    rotate: -25deg;
+}
+
+#sachima{
+    width: 80px;
+    position: absolute;
+    left: 450px;
+    top: 460px;
+}
+
+#yakult{
+    width: 80px;
+    position: absolute;
+    left: 250px;
+    top: 460px;
+}
+
+#sweet{
+    opacity: 50%;
+    transition: 1s;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+#sweet:hover{
+    opacity: 100%;
+    margin-top: -50px;
+    scale: 105%;
+
+
+}
+
+
+
+
+#blue-basket{
+    width: 400px;
+}
+
+#buldak{
+    width: 200px;
+    position: relative;
+    top: -300px;
+    left: 200px;
+}
+
+#honey{
+    width: 200px;
+    position: relative;
+    top: -300px;
+    left: 260px;
+}
+
+#pancit{
+    width: 200px;
+    position: relative;
+    top: -400px;
+    left: 30px;
+    rotate: 15deg;
+}
+
+#rice{
+    width: 200px;
+    position: relative;
+    top: -600px;
+    left: 140px;
+    rotate: 15deg;
+}
+
+
+#shrimp{
+    width: 200px;
+    position: relative;
+    top: -600px;
+    left: 100px;
+    rotate: -15deg;
+}
+
+
+#spam{
+    width: 120px;
+    position: relative;
+    top: -500px;
+    left: 5px;
+    rotate: -15deg;
+}
+
+
+#salty{
+    opacity: 50%;
+    transition: 1s;
+    width: 700px;
+    height: 700px;
+}
+
+#salty:hover{
+    opacity: 100%;
+    margin-top: -50px;
+    scale: 105%;
+} */
+
+#which{
+    font-family:'fogtwo';
+    color: #c74548;
+    font-size: 13px;
+    letter-spacing: 5px;
+
+    text-align: center;
+    position: relative;
+    top: 120px;
+    scale: 120%;
+
+}
+
+#line{
+    border: #c74548 solid 0.5px;
+    width: 520px;
+    position: absolute;
+    left: 444px;
+    top: 190px;
+}
+
+#sweet-salty{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    top: 160px;
+    left:-40px;
+
+    gap: 120px;
+
+    scale: 70%;
+
+    
+}
+
+#sweet{
+    height: 500px;
+
+    opacity: 50%;
+
+    transition: 1s;
+}
+
+#salty{
+    height: 500px;
+
+    opacity: 50%;
+
+    transition: 1s;
+}
+
+#basket-red{
+    width: 500px;
+    position: absolute;
+    left: -20px;
+
+}
+
+
+#blue-basket{
+    width: 500px;
+    position: relative;
+    left: -20px;
+
+}
+
+#sweet:hover{
+    scale: 150%;
+    opacity: 100%;
+    margin-top: -50px;
+
+}
+
+
+#salty:hover{
+    scale: 150%;
+    opacity: 100%;
+    margin-top: -50px;
+
+}
+
+/*ITEMS INSIDE BASKETS*/
+
+#pocky{
+    width:150px;
+
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    rotate: 50deg;
+
+    transition: 1s;
+}
+
+#panda{
+    width:120px;
+
+    position: absolute;
+    top: 250px;
+    left: 70px;
+
+    transition: 1s;
+}
+
+#ramune{
+    width:120px;
+
+    position: absolute;
+    top: 300px;
+    left: 270px;
+
+    transition: 1s;
+}
+
+#rabbit{
+    width:150px;
+
+    position: absolute;
+    top: 320px;
+    left: 90px;
+    rotate: 10deg;
+
+    transition: 1s;
+}
+
+#sachima{
+    width:130px;
+
+    position: absolute;
+    top: 290px;
+    left: 200px;
+
+    transition: 1s;
+}
+
+#yakult{
+    width:110px;
+
+    position: absolute;
+    top: 240px;
+    left: 300px;
+
+    transition: 1s;
+}
+
+#buldak{
+    width:110px;
+
+    position: relative;
+    top: -240px;
+    left: 90px;
+
+    transition: 1s;
+  
+}
+
+#honey{
+    width:160px;
+
+    position: relative;
+    top: -240px;
+    left: 120px;
+
+    transition: 1s;
+  
+}
+
+#pancit{
+    width:100px;
+
+    position: relative;
+    top: -240px;
+    left: -80px;
+
+    transition: 1s;
+}
+
+#rice{
+    width:100px;
+
+    position: relative;
+    top: -300px;
+    left: -200px;
+
+    transition: 1s;
+}
+
+#shrimp{
+    width:100px;
+
+    position: relative;
+    top: -420px;
+    left: 100px;
+    rotate: 20deg;
+
+    transition: 1s;
+}
+
+#spam{
+    width:90px;
+
+    position: relative;
+    top: -350px;
+    left: 190px;
+    rotate: 20deg;
+
+    transition: 1s;
+}
+
+/**/
+
+/*
+.active-red-left-1{
+    margin-top: -200px;
+    margin-left: -100px;
+}
+
+.active-red-left-2{
+    margin-top: -200px;
+    margin-left: -200px;
+    rotate: 90deg;
+}
+
+.active-red-left-3{
+    margin-top: -220px;
+    margin-left: -160px;
+}
+
+.active-red-right-1{
+    margin-top: -220px;
+    margin-left: 200px;
+}
+
+.active-red-right-2{
+    margin-top: -190px;
+    margin-left: 220px;
+}
+
+.active-red-right-3{
+    margin-top: -190px;
+    margin-left: 5px;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
